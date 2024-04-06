@@ -27,9 +27,13 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = import.meta.env.VITE_SERVICE_ID;
-    const templateId = import.meta.env.VITE_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_PUBLIC_ID;
+    // const serviceId = import.meta.env.VITE_SERVICE_ID;
+    // const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    // const publicKey = import.meta.env.VITE_PUBLIC_ID;
+
+    const serviceId = "service_d338xfu";
+    const templateId = "template_gn8qa4x";
+    const publicKey = "pRN8bXS7XeXofAakU";
 
     const templateParam = {
       from_name: contact.username,
